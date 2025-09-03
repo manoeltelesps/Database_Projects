@@ -13,14 +13,16 @@ insert into Pessoa(CPF, Nome, Data_nasc)
 values
 ("51829643007", "Tiago", "2003-05-09"), ("30217498561", "Pietro", "2016-09-01");
 
-select * from Pessoa;
 
 insert into Emprestimo(ISBN_livro, ID_pessoa)
 values
-('9788869183157', 2),
-('8577870405', 1),
-('8577870406', 3);
+('1111222233334', 2);
 
+
+select * from Emprestimo;
+
+delete from Livro
+where ISBN = '1111222233334';
 
 
 

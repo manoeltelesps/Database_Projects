@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS Emprestimo(
     
     
     constraint FK_Pessoa_Emprestimo foreign key (ID_pessoa) references Pessoa(ID),
-    constraint FK_Livro_Emprestimo foreign key (ISBN_livro) references Livro(ISBN)
+    constraint FK_Livro_Emprestimo foreign key (ISBN_livro) references Livro(ISBN) on delete cascade -- On delete vem no filho
 );
 
 -- Inserções
