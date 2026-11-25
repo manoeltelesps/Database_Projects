@@ -1,0 +1,6 @@
+[submodule "SistemaAreo/Sistema-de-Companhia-A-rea"]
+	path = SistemaAreo/Sistema-de-Companhia-A-rea
+	url = https://github.com/keitiely/Sistema-de-Companhia-A-rea.git
+[submodule "ProjetoFaculdade/Banking_Management"]
+	path = ProjetoFaculdade/Banking_Management
+	url = https://github.com/lucascostaslv/Banking_Management.git

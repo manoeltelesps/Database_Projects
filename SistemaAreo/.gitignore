@@ -1,0 +1,36 @@
+# Arquivos do sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Pastas do Finder
+.Spotlight-V100
+.Trashes
+.Trash-*
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Backups do macOS
+*.swp
+*.swo
+*~
+
+# Arquivos do MySQL Workbench
+*.bak
+*.log
+*.tmp
+*.mwb.bak
+*.mwb~
+*.mwb.log
+
+# Arquivos exportados
+*.tar.gz
+*.zip
+
+# Ignore configurações locais
+*.ini
+*.cnf
